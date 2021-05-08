@@ -1,0 +1,35 @@
+READ ME FOR THE SENIOR DATABASE AND PYTHON PROJECT
+
+Setup/Installation Requirements
+-Python 3.7. It will need to have a direct path created so if there is no path or the pip command does not work.
+reinstall python 3.7 or above.
+-Pycharm frame work will need to installed. the community version is perfectable acceptable.
+-Flask library will need to be imported
+-myplotlib will need to imported
+-seaborn will need to be imported
+-pandas will need to be imported
+-googlechrome search preferred. 
+-heart.csv file must be fixed within the program to the current users location.
+
+
+Technology and languages used
+- Python
+- HTML
+- myplotlib
+- PyCharm
+- Flask
+- seaborn
+- pandas
+
+Description
+	This program is two fold. The first part is a data science based on how graphs can be created.
+The data is copied into the program and is removed of any duplicate information so that it prevents any confusion in the data's csv file.
+Lines 29 to 34 Is where we can label the information to fit in a readable fashion instead of 0 and 1 for no and yes. 
+myplotlib, seaborn, and pandas are the three main inported libraries in working of graph creation.
+Each having a hand in either labeling the graph or actually showing the graph. The information for the graphs is in the 
+heart.csv file. The second part of the program is the webpage and HTML part of the project. 
+The HTML Coding povides the links and formatting of the websites. It handles everything from the text formating to the background color.
+Each graph from the data science part of this project has its own subsite through the HTML links. Once the project is running the Flask port link will show
+all the information that was inputed into the HTML coding and is called through the @app.route part of the code in each specified route.
+Example the @app.route ("/age") will show the age graph through the HTML port /age . This can organize any set and subsets of data in a website through local ports.
+ 
